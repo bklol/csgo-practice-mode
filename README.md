@@ -8,25 +8,6 @@ csgo-practice-mode
 
 Practice Mode is a sourcemod plugin for helping players/teams run practices. See this [YouTube video](https://www.youtube.com/watch?v=ua_I30DTggQ) for a demonstration. Check out the features and command list below for a better understanding of all the tools practicemode provides.
 
-## Download
-
-Download from [the releases section](https://github.com/splewis/csgo-practice-mode/releases).
-
-You may also download the [latest development build](http://ci.splewis.net/job/csgo-practice-mode/lastSuccessfulBuild/) if you wish. If you report any bugs from these, make sure to include the build number (when typing ``sm plugins list`` into the server console, the build number will be displayed with the plugin version).
-
-### Installation
-
-1. Confirm you have [SourceMod](https://www.sourcemod.net/downloads.php) and [MetaMod:Source](https://metamodsource.net/downloads.php). You must have a 1.9+ build of sourcemod.
-
-2. Extract **all** files in the release zip from above to the ``csgo`` server directory. You should see a ``practicemode.smx`` file in ``addons/sourcemod/plugins``.
-
-3. To start practicemode via the ``.setup`` command, either [add yourself as a sourcemod admin](https://github.com/splewis/csgo-practice-mode/wiki/Command-access#adding-admins-in-sourcemod) or [remove the admin requirement](https://github.com/splewis/csgo-practice-mode/wiki/Command-access#launching-practicemode).
-
-**Note**: access to the .setup requires having the sourcemod admin changemap flag ("g") by default. See [the wiki](https://github.com/splewis/csgo-practice-mode/wiki/Command-access) for more information on changing how admin access works.
-
-### Download and installation for dummies
-
-For a more thorough guide for users new to configuring servers, please see [this wiki page](https://github.com/splewis/csgo-practice-mode/wiki/Step-by-step-installation-guide).
 
 ## Features
 - Draws working grenade trajectories if ``sv_grenade_trajectory`` is on (since it doesn't work on dedicated servers)
